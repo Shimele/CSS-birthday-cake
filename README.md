@@ -1,2 +1,2 @@
-# CSS-birthday-cake
-# CSS-birthday-cake
+# Birthday-cake with Pure CSS
+

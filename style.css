@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Dancing+Script&family=Gochi+Hand&family=Pacifico&family=Parisienne&display=swap');
+body {
+    background-color: #E2BBC0;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    
+    width: 60%;
+    height: 350px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.cake{
+    height: 90px;
+    width: 180px;
+    background-color: #FFFFFF;
+    position: absolute;
+}
+.level-1{
+    bottom: 0;
+    left: 40%;
+}
+.wish{
+    position: absolute;
+    top: 60px;
+    left: 20px;
+    font-family:'Dancing Script', cursive;
+}
+.cream{
+    background-color: #F57AB6;
+    height: 10px;
+    width: 100%;
+    position: absolute;
+    top: 40px;
+}
+
+.ice{
+    position: relative;
+}
+.ice>div{
+    position: absolute;
+    background-color: #A25B3D;
+    height: 13px;
+    width: 26px;
+    border-radius: 0 0 26px 26px;
+}
+.ice>div:nth-child(1){
+    left: -2px;
+}
+.ice>div:nth-child(2){
+    left: 26px;
+}
+.ice>div:nth-child(3){
+    left: 52px;
+}
+.ice>div:nth-child(4){
+    left: 78px;
+}
+.ice>div:nth-child(5){
+    left: 104px;
+}
+.ice>div:nth-child(6){
+    left: 130px;
+}
+.ice>div:nth-child(7){
+    left: 156px;
+}
+.cherry>div{
+    background-color: #CC181F;
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    position: absolute;
+    top: -18px;
+    border-top:3px solid #0FA119;
+}
+.cherry>div:nth-child(1){
+    left: 8px;
+}
+.cherry>div:nth-child(2){
+    left: 40px;
+}
+.cherry>div:nth-child(3){
+    left: 70px;
+}
+.cherry>div:nth-child(4){
+    left: 100px;
+}
+.cherry>div:nth-child(5){
+    left: 130px;
+}
+.cherry>div:nth-child(6){
+    left: 156px;
+}
+
+.level-2{
+    transform: scale(0.8);
+    bottom: 73px;
+    left: 40%;
+    z-index: -1;
+}
+.level-3{
+    transform: scale(0.6);
+    bottom: 135px;
+    left: 40%;
+    z-index: -2;
+}
+.level-4{
+    transform: scale(0.4);
+    bottom: 180px;
+    left: 40%;
+    z-index: -3;
+}
+.candle{
+    background: repeating-linear-gradient(
+    45deg,
+    #E3C2BB,
+    #E3C2BB 2px,
+    #E98F92 2px,
+    #E98F92 5px
+    );
+    height: 70px;
+    width: 15px;
+    position: absolute;
+    bottom: 230px;
+    left: 50%;
+    z-index: -4;
+}
+.flame{
+    background-color: #fbb200;
+    height: 20px;
+    width: 20px;
+    border-radius: 0 50% 50% 50%;
+    position: absolute;
+    top: -22px;
+    right: -3px;
+    transform: rotate(45deg);
+}
